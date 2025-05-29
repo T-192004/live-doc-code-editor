@@ -2,6 +2,9 @@
 
 This is the backend API for a **Real-Time Collaborative Code Editor**, built using **Node.js**, **Express.js**, **MongoDB (Mongoose)**, and **JWT-based Authentication**.
 
+## LIVE URL - 
+    https://live-docs-editor.onrender.com
+
 ## 📂 Project Structure
 
     backend
@@ -31,8 +34,8 @@ This is the backend API for a **Real-Time Collaborative Code Editor**, built usi
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/realtime-code-editor-backend.git
-   cd realtime-code-editor-backend
+   git clone https://github.com/T-192004/live-docs-editor
+   cd backend
 
 2. **Install dependencies**
 
