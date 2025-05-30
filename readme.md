@@ -4,6 +4,13 @@ A full-stack real-time collaborative code editor that allows multiple users to e
 
 ---
 
+## LIVE URL - 
+### BACKEND LIVE URL - 
+    https://live-doc-code-editor.onrender.com
+
+### FRONTEND LIVE URL - 
+    https://live-code-doc-editor.netlify.app/
+
 ## 📚 Table of Contents
 
 - [📝 Features](#-features)
