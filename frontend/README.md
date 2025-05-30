@@ -49,8 +49,8 @@
 
 ### 1. Clone the Repository
     
-    git clone https://github.com/your-username/codecast-frontend.git
-    cd codecast-frontend
+    git clone https://github.com/T-192004/live-doc-code-editor
+    cd frontend
 
 
 ### 2. Install Dependencies
