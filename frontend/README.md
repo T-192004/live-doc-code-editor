@@ -64,7 +64,7 @@
 Create a .env file in the root directory:
 
 
-    REACT_APP_BACKEND_URL=http://localhost:5000
+    REACT_APP_BACKEND_URL=https://live-doc-code-editor.onrender.com
 
 Replace with your actual backend deployment URL if hosted remotely.
 
