@@ -23,7 +23,7 @@ function Home() {
     const fetchJoinedRooms = async () => {
       try {
         // API call to get user's joined rooms, using user's id and auth token
-        const response = await fetch(`https://live-docs-editor.onrender.com/api/rooms/user/${user.id}`, {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/rooms/user/${user.id}`, {
           headers: {
             'x-auth-token': localStorage.getItem('token'),
           },
@@ -63,7 +63,7 @@ function Home() {
     toast.loading('Creating a new room...');
     try {
       // POST request to create new room with name, ID, and userId
-      const response = await fetch('https://live-docs-editor.onrender.com/api/rooms', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/rooms`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -113,14 +113,14 @@ function Home() {
       toast.loading('Joining room...');
 
       // Fetch room details to validate if room exists
-      const roomResponse = await fetch(`https://live-docs-editor.onrender.com/api/rooms/${joinRoomId}`);
+      const roomResponse = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/rooms/${joinRoomId}`);
       if (!roomResponse.ok) {
         throw new Error('Room not found');
       }
       const roomData = await roomResponse.json();
 
       // POST request to join the room (e.g., update DB that user joined)
-      const response = await fetch(`https://live-docs-editor.onrender.com/api/rooms/${joinRoomId}/join`, {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/rooms/${joinRoomId}/join`, {
         method: 'POST',
         headers: {
           'x-auth-token': localStorage.getItem('token'),

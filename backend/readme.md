@@ -3,7 +3,7 @@
 This is the backend API for a **Real-Time Collaborative Code Editor**, built using **Node.js**, **Express.js**, **MongoDB (Mongoose)**, and **JWT-based Authentication**.
 
 ## LIVE URL - 
-    https://live-docs-editor.onrender.com
+    https://live-doc-code-editor.onrender.com   
 
 ## 📂 Project Structure
 

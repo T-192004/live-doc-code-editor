@@ -23,7 +23,7 @@ function Register() {
 
     try {
       // Send POST request to backend for registration
-      const response = await fetch('https://live-docs-editor.onrender.com/api/auth/register', {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/auth/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

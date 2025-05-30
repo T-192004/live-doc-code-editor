@@ -20,7 +20,7 @@ function Login() {
 
     try {
       // Send login request to backend API
-      const response = await fetch("https://live-docs-editor.onrender.com/api/auth/login", {
+      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/auth/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
