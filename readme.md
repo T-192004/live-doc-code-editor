@@ -10,6 +10,22 @@ A full-stack real-time collaborative code editor that allows multiple users to e
 
 [Click here to watch the demo](./real-time-code-editor-demo.webm)
 
+## Preview - 
+
+### Home Page -
+![App Preview](./demo-images/home.png)
+
+### Register Page - 
+
+![App Preview](./demo-images/register.png)
+
+### Login Page -
+
+![App Preview](./demo-images/login.png)
+
+### Room Page - 
+
+![App Preview](./demo-images/room.png)
 
 
 ## LIVE URL - 
