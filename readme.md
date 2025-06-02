@@ -4,6 +4,13 @@ A full-stack real-time collaborative code editor that allows multiple users to e
 
 ---
 
+## PROJECT DEMO - 
+
+<video width="640" height="360" controls>
+  <source src="real-time-code-editor-demo.webm" type="video/mp4">
+</video>
+
+
 ## LIVE URL - 
 ### BACKEND LIVE URL - 
     https://live-doc-code-editor.onrender.com
@@ -211,6 +218,7 @@ Frontend runs on: http://localhost:3000
 - 🌐 Deployment with Vercel + Render or Railway
 
 - - - - 
+
 
 ## 📄 License
 This project is licensed under the MIT License – feel free to fork and enhance!
