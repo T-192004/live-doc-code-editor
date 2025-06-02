@@ -6,9 +6,10 @@ A full-stack real-time collaborative code editor that allows multiple users to e
 
 ## PROJECT DEMO - 
 
-<video width="640" height="360" controls>
-  <source src="real-time-code-editor-demo.webm" type="video/mp4">
-</video>
+### 📽️ Demo Video
+
+[Click here to watch the demo](./real-time-code-editor-demo.webm)
+
 
 
 ## LIVE URL - 
